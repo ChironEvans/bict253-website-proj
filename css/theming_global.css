@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+* a,* div {
+		transition: ease 0.33s;
+}
+body {
+	margin: 0;
+}
+.grid-container {
+	height: 100vh;
+}
+
+.TitleWrap {
+	color: #F99E1A;
+	display: block;
+	justify-content: center;
+	text-align: center;
+}
+
+.TitleWrap h1 {
+	vertical-align: middle;
+	padding: 1rem 0;
+}
+.TitleBar {
+	box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.75);	
+	margin-bottom: 0;
+}
+
+h2, h1 {
+	color: #F99E1A;
+}
+h3 {
+	color: #ffffff;
+	font-size: 2rem;
+	margin: 1rem auto;
+}
+a {
+	color: #ffffff;
+}
+.GlobalBtm, .GlobalTop {
+	background-color: #F99E1A;
+}
+.GlobalBtns div {
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+	
+}
+.GlobalBtns a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2rem;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+}
+.GlobalBtns a:hover {
+	background-color:#fbbb5f;
+}
+.Globalbtm a h3,.GlobalTop a h3 {
+	color: #FFF;
+}
+.ContentBtns {
+	background-color: #F99E1A;	
+}
+.ContentBtns div {
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+}
+
+.ContentBtns a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2rem;
+	vertical-align: middle;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+}
+.ContentBtns h3 {
+	margin: 2.225rem auto;
+}
+.HeroBtns div {
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+	
+}
+
+.HeroBtns a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2rem;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+}
+.overflow h3 {
+	font-size: 1.6rem;
+}
+.ContentBtnSpc a {
+	position: static;
+	top: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+}
+
+.GlobalBtns, .HeroBtns, .ContentBtns {
+	position: sticky;
+	bottom: 0;
+}
+.TitleBar {
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+}
+button {
+	border: none;
+	background: none;
+	width: 100%;
+	height: 100%;
+}
+
+video, img {
+	margin-top: 10rem;
+}
+
+ContentTextWrap  {
+	padding-top: 10rem;
+}
+
+ul {
+	list-style: none;
+}
+li *{
+	vertical-align: middle;
+	margin: 0.5rem;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+
+.Visual-Component img {
+	width:100%;
+	height: auto;
+}
+
+.ContentBtnSpc img {
+	width:auto;
+	height: 5rem;
+	margin: auto;
+	padding: 1rem;
+}
+
+.ContentTitleWrap h2 {
+	font-size: 3rem;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.ContentTextWrap {
+	margin: 5rem 2.5rem;
+	font-size: 1.25rem;
+}
+.portraitWrap {
+	position: relative;
+}
+.heroPortrait {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}

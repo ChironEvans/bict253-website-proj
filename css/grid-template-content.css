@@ -1,0 +1,88 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 11fr 1fr 1fr;
+  grid-template-areas: "TitleBar TitleBar TitleBar TitleBar TitleBar TitleBar" ". Main-Content Main-Content Main-Content Main-Content ." "GlobalBtns Main-Content Main-Content Main-Content Main-Content HeroBtns" "GlobalBtns Main-Content Main-Content Main-Content Main-Content HeroBtns";
+}
+
+.Main-Content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 0.5fr;
+  grid-template-areas: "Visual-Component Visual-Component Visual-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component" "ContentBtns ContentBtns ContentBtns ContentBtns ContentBtns";
+  grid-area: Main-Content;
+}
+
+.Visual-Component { grid-area: Visual-Component; }
+
+.Text-Component {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
+  grid-template-areas: "ContentTitleWrap ContentTitleWrap ContentTitleWrap" "ContentTextWrap ContentTextWrap ContentTextWrap" ". . .";
+  grid-area: Text-Component;
+}
+
+.ContentTextWrap { grid-area: ContentTextWrap; }
+
+.ContentTitleWrap { grid-area: ContentTitleWrap; }
+
+.ContentBtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "contentBtn1 ContentBtn2 ContentBtnSpc ContentBtn3 ContentBtn4";
+  grid-area: ContentBtns;
+}
+
+.contentBtn1 { grid-area: contentBtn1; }
+
+.ContentBtn2 { grid-area: ContentBtn2; }
+
+.ContentBtnSpc { grid-area: ContentBtnSpc; }
+
+.ContentBtn3 { grid-area: ContentBtn3; }
+
+.ContentBtn4 { grid-area: ContentBtn4; }
+
+.TitleBar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". TitleWrap .";
+  grid-area: TitleBar;
+}
+
+.TitleWrap { grid-area: TitleWrap; }
+
+.GlobalBtns {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "GlobalTop" "GlobalBtm";
+  grid-area: GlobalBtns;
+}
+
+.GlobalTop { grid-area: GlobalTop; }
+
+.GlobalBtm { grid-area: GlobalBtm; }
+
+.HeroBtns {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "HeroBtnTop" "HeroBtnBottom";
+  grid-area: HeroBtns;
+}
+
+.HeroBtnTop { grid-area: HeroBtnTop; }
+
+.HeroBtnBottom { grid-area: HeroBtnBottom; }
+
+.strengthAndWeak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr 0.5fr;
+  grid-template-areas: "Visual-Component Visual-Component Visual-Component Text-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component Text-Component" "Visual-Component Visual-Component Visual-Component Text-Component Text-Component Text-Component" "ContentBtns ContentBtns ContentBtns ContentBtns ContentBtns ContentBtns";
+  grid-area: Main-Content;
+}

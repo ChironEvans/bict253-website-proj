@@ -1,0 +1,45 @@
+*  {
+	color: #fff;
+}
+.grid-container {
+	background-color: 	#68bac5;
+}
+
+h1, h2 {
+	color:#e9a92e	;
+}
+
+.ContentBtns {
+	background-color: #464540;
+}
+
+.ContentBtns a:hover{
+	background-color: #7e7d79;
+}
+
+.ContentBtnSpc {
+	background-color: #e9a92e;
+}
+.ContentBtnSpc:hover {
+	background-color: #edba58;
+}
+.ContentBtnSpc a:hover {
+	background-color: #edba58;
+}
+.Text-Component {
+	color: #FFF;
+}
+.HeroBtns {
+	background-color: 	#464540;
+}
+.HeroBtns a:hover{
+	background-color: 	#7e7d79;
+}
+.TitleBar {
+
+	background-color: #464540;
+}
+.TitleWrap h1 {
+
+	color: #e9a92e;
+}

@@ -1,0 +1,22 @@
+.Main-Content {
+	color: #ffffff;
+	font-size: 1.25rem;
+}
+
+.Left-Compare h2, .Right-Compare h2 {
+	font-size: 3rem;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.ContentTextWrap, .ContentTextWrap-2 {
+	margin: 1.5rem;
+	font-size: 1.25rem;
+}
+
+.ContentTextWrap, .ContentTextWrap-2  ul {
+	list-style: disk;
+}
+ul {
+	list-style-type: disc;
+}

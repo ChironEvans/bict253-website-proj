@@ -1,0 +1,37 @@
+* { 
+	color: #fff;
+}
+.grid-container {
+	background-color: 	#565971;
+}
+
+h1, h2 {
+	color:#ffd267;
+}
+
+.ContentBtns {
+	background-color: #6591ee;
+}
+.ContentBtns a:hover {
+	background-color: #84a7f1;
+}
+.ContentBtnSpc {
+	background-color: #ffd267;
+}
+.ContentBtnSpc:hover,  .ContentBtnSpc a:hover{
+	background-color: #ffe4a4;
+}
+
+.Text-Component {
+	color: #FFF;
+}
+.HeroBtns {
+	background-color: #6591ee;
+}
+.HeroBtns a:hover {
+	background-color: #84a7f1;
+}
+.TitleBar {
+
+	background-color: #6591ee;
+}

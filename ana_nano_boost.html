@@ -1,0 +1,150 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <link rel="Stylesheet" href="css/grid-template-content.css">
+    <link rel="Stylesheet" href="css/layout.css">
+    <link rel="Stylesheet" href="css/theming_global.css">
+    <link rel="Stylesheet" href="css/theming_ana.css">
+	<link rel="Stylesheet" href="css/slideshow.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana | Nano Boost</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="Main-Content">
+            <div class="Visual-Component">
+			<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="images/ana/Nano_Boost_Targeting_1.png">
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="images/ana/Nano_Boost_Hit_1.png">
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="images/ana/Nano_Boost_Assist_1.png">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+                
+                
+                
+            </div>
+            <div class="Text-Component">
+                <div class="ContentTextWrap">
+                    <p>Powers up an ally, healing 250 health points, granting a bonus 50% damage dealt and reducing damage taken by 50% for 8 Seconds.
+				<br>
+				<br>
+				<h2 style="text-align:center;margin:10rem auto 0;">Know Your Game Sounds!</h2> 
+				<p>Ana's Ultimate voice line is different if an enemy is activating it.
+				<ul>
+					<li><strong>Friendly:</strong>
+						<audio controls>
+						  <source src="audio/ana/ana_ultimate_friendly.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</li>
+					<li>
+						<strong>Enemy</strong>
+						<audio controls>
+							<source src="audio/ana/ana_ultimate_enemy.wav" type="audio/wav">
+							Your browser does not support the audio element.
+						</audio>
+					</li>
+				</ul>
+				
+				</div>
+                <div class="ContentTitleWrap">
+                    <h2>Nano Boost</h2>
+                </div>
+            </div>
+
+            <div class="ContentBtns">
+                <div class="ContentBtn1">
+                    <a href="ana_sleep_dart.html"><h3>Sleep Dart</h3></a>
+                </div>
+                <div class="ContentBtn2">
+                    <a href="ana_biotic_grenade.html"><h3>Biotic Grenade</h3></a>
+                </div>
+                <div class="ContentBtn4">
+                    <a href="ana_biotic_rifle.html"><h3>Biotic Rifle</h3></a>
+                </div>
+                <div class="ContentBtnSpc">
+                    <a href="ana_hero_overview.html"><img src="images/ana/ana-hero_Icon_NoBG.png"></a>
+                </div>
+                <div class="ContentBtn3">
+                    <a href="ana_nano_boost.html"><h3>Nano Boost</h3></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="TitleBar">
+            <div class="TitleWrap">
+                <h1> Ana - Hero Overview</h1>
+            </div>
+        </div>
+        <div class="GlobalBtns">
+            <div class="GlobalTop">
+                <a href="index.html"><h3>Hero Select</h3></a>
+            </div>
+            <div class="GlobalBtm">
+                <a href="help_about.html"><h3>Help & About</h3></a>
+            </div>
+        </div>
+        <div class="HeroBtns">
+            <div class="HeroBtnTop overflow">
+                <a href="ana_strengths_weaknesses.html"><h3>Strengths & Weaknesses</h3></a>
+            </div>
+            <div class="HeroBtnBottom overflow">
+                <a href="ana_sleep_hitboxes.html"><h3>Advanced Techniques</h3></a>
+            </div>
+        </div>
+    </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
